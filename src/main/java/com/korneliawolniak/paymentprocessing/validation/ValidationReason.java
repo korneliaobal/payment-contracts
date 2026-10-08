@@ -1,0 +1,11 @@
+package com.korneliawolniak.paymentprocessing.validation;
+
+public enum ValidationReason {
+  DEBTOR_NAME_REQUIRED,
+  DEBTOR_ACCOUNT_INVALID,
+  TRANSACTION_COUNT_OUT_OF_RANGE,
+  CREDITOR_NAME_REQUIRED,
+  CREDITOR_ACCOUNT_INVALID,
+  AMOUNT_INVALID,
+  AMOUNT_BELOW_MINIMUM
+}
